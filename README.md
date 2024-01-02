@@ -1,7 +1,7 @@
 ### Hello, I'm junnjiee16 👋
 - 💬 I’m interested in: Machine Learning and Full-stack Web Development
 - 🌱 I’m currently learning: [NextJS](https://nextjs.org/)
-- 🔭 I’m currently an AI Engineer (Intern) at [Anor Technologies](https://anor-tech.com/)
+- 🔭 I’m currently an Software Engineer (Intern) at [Anor Technologies](https://anor-tech.com/)
   
 <!--
 **junnjiee16/junnjiee16** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
