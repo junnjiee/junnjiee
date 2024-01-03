@@ -1,4 +1,4 @@
-### Hello, I'm junnjiee16 👋
+### Hello, I'm Jun Jie 👋
 - 💬 I’m interested in: Machine Learning and Full-stack Web Development
 - 🌱 I’m currently learning: [NextJS](https://nextjs.org/)
 - 🔭 I’m currently a Software Engineer (Intern) at [Anor Technologies](https://anor-tech.com/)
