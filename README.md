@@ -1,7 +1,7 @@
 ### Hello, I'm Jun Jie 👋
 - 💬 I’m interested in: Machine Learning and Full-stack Web Development
-- 🌱 I’m currently learning: [NextJS](https://nextjs.org/)
-- 🔭 I’m currently a Software Engineer (Intern) at [Anor Technologies](https://anor-tech.com/)
+- 🌱 I’m currently learning: Large Language Models and Retrieval Augmented Generation (RAG) applications
+- 🔭 I’m currently a Software Engineer (Intern) at [A*STAR, ARTC](https://www.a-star.edu.sg/artc)
   
 <!--
 **junnjiee16/junnjiee16** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
