@@ -1,7 +1,7 @@
 ### Hello, I'm Jun Jie 👋
 - 💬 I’m interested in: Machine Learning and Full-stack Web Development
 - 🌱 I’m currently learning: C programming and Neovim
-- 🔭 I’m currently a AI Engineer (Intern) at [A*STAR](https://www.a-star.edu.sg)
+- 🔭 I’m currently an AI Engineer Intern at [A*STAR](https://www.a-star.edu.sg)
 
 <!--
 **junnjiee16/junnjiee16** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
