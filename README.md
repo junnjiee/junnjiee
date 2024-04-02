@@ -1,6 +1,6 @@
 ### Hello, I'm Jun Jie 👋
 - 💬 I’m interested in: Machine Learning and Full-stack Web Development
-- 🌱 I’m currently learning: C programming and Neovim
+- 🌱 I’m currently learning: C programming
 - 🔭 I’m currently an AI Engineer Intern at [A*STAR](https://www.a-star.edu.sg)
 
 <!--
