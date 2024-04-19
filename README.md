@@ -1,5 +1,6 @@
 ### Hello 👋
 🌱 Currently learning about LLMs and Retrieval Augmented Generation (RAG).
+
 💻 AI Engineer Intern at [Agency for Science, Technology and Research (A*STAR)](https://www.a-star.edu.sg).
 
 <!--
