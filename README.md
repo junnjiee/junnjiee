@@ -1,6 +1,6 @@
 ### Hello 👋
 - 🌱 Currently learning Java.
-- 💻 AI Research Intern at [Agency for Science, Technology and Research (A*STAR)](https://www.a-star.edu.sg).
+
 
 <!--
 **junnjiee16/junnjiee16** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
