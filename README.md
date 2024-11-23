@@ -1,5 +1,5 @@
 ### Hello 👋
-- 🌱 Currently learning Java.
+- 🌱 Deciding on what to work on next
 
 
 <!--
