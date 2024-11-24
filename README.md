@@ -1,5 +1,5 @@
 ### Hello 👋
-- 🌱 Deciding on what to work on next
+- 🌱 Building something cool
 
 
 <!--
