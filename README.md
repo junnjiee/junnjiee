@@ -1,6 +1,7 @@
-### Hello 👋
-- 🌱 Building something cool
+# Hello!
+Building something cool 🚀
 
+[![Languages I speak](https://skillicons.dev/icons?i=js,ts,python)](https://skillicons.dev)
 
 <!--
 **junnjiee16/junnjiee16** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
