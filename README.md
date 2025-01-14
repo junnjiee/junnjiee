@@ -1,5 +1,5 @@
-# Hello World
-Building something cool 🚀
+### Hello 👋
+Building something cool.
 
 [![Languages I speak](https://skillicons.dev/icons?i=js,ts,python)](https://skillicons.dev)
 
