@@ -1,5 +1,5 @@
 ### Hello 👋
-Building something cool.
+Trying to figure out how computers work.
 
 [![Languages I speak](https://skillicons.dev/icons?i=js,ts,python)](https://skillicons.dev)
 
