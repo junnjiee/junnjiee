@@ -1,5 +1,5 @@
 ### Jun Jie
-I make software for people to use.
+Trying to make software to enhance experiences.
 
 <!--
 **junnjiee16/junnjiee16** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
