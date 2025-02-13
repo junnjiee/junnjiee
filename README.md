@@ -1,5 +1,5 @@
 ### Jun Jie
-Using a system of words to make computers do things.
+```go build```
 
 <!--
 **junnjiee16/junnjiee16** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
