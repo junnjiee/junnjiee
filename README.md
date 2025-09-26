@@ -1,5 +1,5 @@
-### Jun Jie
-Hello
+### Hello
+I'm Jun Jie, an incoming Computer Science undergraduate at [NUS](https://www.nus.edu.sg/)
 
 <!--
 **junnjiee16/junnjiee16** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
