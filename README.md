@@ -1,4 +1,4 @@
-### Hello
+### Hello,
 I'm Jun Jie, an incoming Computer Science undergraduate at [National University of Singapore](https://www.nus.edu.sg/).
 
 <!--
