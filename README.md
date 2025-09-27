@@ -3,7 +3,7 @@
 I'm currently:
 - an incoming Computer Science undergraduate at the [National University of Singapore](https://www.nus.edu.sg/).
 
-Previously, I was a:
+Previously, I was:
 - AI Research Intern at [A*STAR, Advanced Remanufacturing and Technology Centre](https://www.a-star.edu.sg/artc)
 - Software Engineer Intern at [ANOR Technologies](https://www.anor-tech.com/)
 
