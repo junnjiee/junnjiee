@@ -1,6 +1,10 @@
-### Hello,
-I'm Jun Jie, an incoming Computer Science undergraduate at [National University of Singapore](https://www.nus.edu.sg/).
+### Hello, I'm Jun Jie
 
+I'm currently an incoming Computer Science undergraduate at the [National University of Singapore](https://www.nus.edu.sg/).
+
+I'm previously a:
+- AI Research Intern at [A*STAR, Advanced Remanufacturing and Technology Centre](https://www.a-star.edu.sg/artc)
+- Software Engineer Intern at [ANOR Technologies](https://www.anor-tech.com/)
 <!--
 **junnjiee16/junnjiee16** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
