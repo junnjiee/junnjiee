@@ -1,8 +1,8 @@
 ### Hello, I'm Jun Jie
 
 I'm currently:
-- an incoming Computer Science undergraduate at [National University of Singapore](https://www.nus.edu.sg/).
-- making dollar-cost averaging easier to understand using data with [justDCA](http://just-dca.pages.dev).
+- an incoming Computer Science undergraduate at [National University of Singapore (NUS)](https://www.nus.edu.sg/).
+- building [justDCA](http://just-dca.pages.dev), to make dollar-cost averaging more intuitive through data.
 
 Previously, I was:
 - AI Research Intern at [A*STAR, Advanced Remanufacturing and Technology Centre](https://www.a-star.edu.sg/artc)
