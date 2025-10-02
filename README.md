@@ -2,7 +2,7 @@
 
 I'm currently:
 - an incoming Computer Science undergraduate at [National University of Singapore (NUS)](https://www.nus.edu.sg/).
-- building [justDCA](http://just-dca.pages.dev), to make dollar-cost averaging more intuitive through data.
+- building [justDCA](http://just-dca.pages.dev), to make dollar-cost averaging intuitive through historical data.
 
 Previously, I was:
 - AI Research Intern at [A*STAR, Advanced Remanufacturing and Technology Centre](https://www.a-star.edu.sg/artc)
