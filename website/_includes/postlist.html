@@ -1,0 +1,13 @@
+<div id="post-list-section">
+    <h1>Blog</h1>
+    {% for post in collections.blog %}
+    <ul id="post-list">
+        <li>
+            <a class="white-link post-list-element" href="{{ post.url }}">
+                <div>{{ post.data.title }}</div>
+                <div class="post-list-element-date">{{ post.date | readableDate }}</div>
+            </a>
+        </li>
+    </ul>
+    {% endfor %}
+</div>
