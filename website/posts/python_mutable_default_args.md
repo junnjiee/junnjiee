@@ -1,5 +1,6 @@
 ---
 title: Mutable Default Arguments in Python | Jun Jie
+articleTitle: Mutable Default Arguments in Python
 date: 2025-09-02
 synopsis: Explaining a common pitfall when using Python's default function arguments.
 ---
@@ -9,28 +10,32 @@ Recently, I made a beginner mistake when it comes to using mutable data structur
 Take this code snippet as an example:
 
 ```python
-def func(a = []):
+from typing import List
+
+def func(a: List[str] = []) -> List[str]:
     return a
 
-arr1 = func()
-arr2 = func()
+arr1 = func() # arr1 = []
+arr2 = func() # arr2 = []
 
-arr1.append("a")
+arr1.append('a')
 
-print(arr1, arr2)
+print(f'arr1: {arr1}')
+print(f'arr2: {arr2}')
 ```
 
 Output:
 
 ```python
-['a'] ['a']
+arr1: ['a']
+arr2: ['a']
 ```
 
 Why did mutating `arr1` affect `arr2`? Shouldn't they be different list instances?
 
 ## Why?
 
-Looking at the Python docs at [8.7. Function definitions](https://docs.python.org/3.10/reference/compound_stmts.html#function-definitions), it states that `the expression is evaluated once, when the function is defined, and that the same “pre-computed” value is used for each call`.
+Looking at the Python docs at [8.7. Function definitions](https://docs.python.org/3.10/reference/compound_stmts.html#function-definitions), it states: `the expression is evaluated once, when the function is defined, and that the same “pre-computed” value is used for each call`.
 
 This behaviour works with primitive types, but unexpected errors occur when using mutable objects, since the same object instance is used for every function call, instead of a new instance being created.
 
@@ -43,23 +48,25 @@ To use mutable objects as default arguments in Python, we can use the primitive 
 ```python
 from typing import Optional, List
 
-def func(a: Optional[List[int]] = None) -> List[int]:
+def func(a: Optional[List[str]] = None) -> List[str]:
     if a is None:
         return []
     return a
 
-arr1 = func()
-arr2 = func()
+arr1 = func() # arr1 = []
+arr2 = func() # arr2 = []
 
-arr1.append("a")
+arr1.append('a')
 
-print(arr1, arr2)
+print(f'arr1: {arr1}')
+print(f'arr2: {arr2}')
 ```
 
 Output:
 
 ```python
-['a'] []
+arr1: ['a']
+arr2: []
 ```
 
 The pattern above, ensures that a new object instance is created every time the function is called.
