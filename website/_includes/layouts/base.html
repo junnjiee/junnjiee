@@ -7,12 +7,22 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ title }}</title>
     <link rel="stylesheet" href="/css/base.css">
-    <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet" />
+    <link href="https://prismjs.catppuccin.com/mocha.css" rel="stylesheet" />
 </head>
 
 <body>
-    {% include "nav.html" %}
+    <header>
+        <h1><a href="/">Jun Jie</a></h1>
+        <nav>
+            <ul>
+                <li><a href="/posts">/posts</a></li>
+                <li><a href="#">/books</a></li>
+                <li><a href="#">/resume</a></li>
+            </ul>
+        </nav>
+    </header>
     {{ content }}
+    <script src="prism.js"></script>
 </body>
 
 </html>
