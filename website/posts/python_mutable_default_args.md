@@ -21,7 +21,7 @@ print(arr1, arr2)
 
 Output:
 
-```
+```python
 ['a'] ['a']
 ```
 
@@ -57,7 +57,7 @@ print(arr1, arr2)
 
 Output:
 
-```
+```python
 ['a'] []
 ```
 
