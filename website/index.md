@@ -1,15 +1,16 @@
 ---
-layout: layouts/home.html
+layout: layouts/index.html
 title: Jun Jie
 ---
 
-# About
+# Hello!
 
-I'm Jun Jie, a software engineer from Singapore.
+I’m a software engineer from Singapore with a passion for building and learning anything that sparks my curiosity, especially in the world of Computer Science. I enjoy exploring new technologies, tackling challenging problems, and building things that make an impact.
 
 I'm **currently**:
 
-- an incoming Computer Science freshman at the [National University of Singapore](https://www.nus.edu.sg/).
+- looking for software engineering internships for Summer (May-Aug) 2026!
+- an incoming Computer Science freshman at the [National University of Singapore](https://www.nus.edu.sg/)
 
 **Previously**, I was a/an:
 
