@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ title }}</title>
     <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/post.css">
     <link href="https://prismjs.catppuccin.com/mocha.css" rel="stylesheet" />
 </head>
 
@@ -21,8 +22,38 @@
             </ul>
         </nav>
     </header>
+    <nav id="cmd-prompt-nav" class="invisible">
+        <ul id="cmd-prompt-nav-links">
+            <li><a href="/">~</a></li>
+        </ul>
+    </nav>
     {{ content }}
-    <script src="prism.js"></script>
+
+    <script>
+        const currentPath = window.location.pathname.split("/");
+
+        document.querySelectorAll("header nav a").forEach((element) => {
+            const link = element.getAttribute("href").split("/")[1];
+            if (link === currentPath[1]) {
+                element.innerHTML = `<strong>${element.textContent}</strong>`;
+            }
+        });
+
+        console.log(currentPath)
+        if (currentPath[1]) {
+            const nav = document.getElementById("cmd-prompt-nav")
+            nav.classList.remove("invisible")
+
+            const navList = document.getElementById("cmd-prompt-nav-links")
+            currentPath.forEach((link, idx) => {
+                if (link) {
+                    const hrefLink = currentPath.slice(0, idx + 1).join("/")
+                    navList.innerHTML += (`<li>/</li>`)
+                    navList.innerHTML += (`<li><a href="${hrefLink}">${link}</a></li>`)
+                }
+            })
+        }
+    </script>
 </body>
 
 </html>

@@ -1,0 +1,53 @@
+#post-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.post-list-item {
+  display: flex;
+  column-gap: 1.5rem;
+  padding: 0.5rem 0;
+}
+
+.post-list-item-date {
+  font-size: var(--font-size-sm);
+  font-family: "SF Mono";
+}
+
+.post-list-item-synopsis {
+  font-size: var(--font-size-sm);
+  color: var(--overlay-1);
+  padding-top: 0.3rem;
+}
+
+#post-synopsis,
+#post-date {
+  color: var(--overlay-1);
+}
+
+#to-top-btn {
+  font-size: var(--font-size-sm);
+  font-family: "SF Mono";
+  text-decoration: underline;
+  cursor: pointer;
+  color: var(--subtext-0);
+  background-color: transparent;
+  border: none;
+  width: fit-content;
+  margin: 2rem auto;
+}
+
+.copy-btn {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 0.3rem;
+  padding: 0.3rem;
+  border: none;
+}
+
+.copy-btn:hover {
+  background-color: var(--surface-0);
+}

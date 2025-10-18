@@ -4,8 +4,13 @@ layout: layouts/base.html
 
 <article>
     <h1>{{ title }}</h1>
-    <p class="post-list-element-date">{{ date | readableDate }}</p>
+    <p id="post-synopsis">{{ synopsis }}</p>
+    <p id="post-date">{{ date | readableDate }} &middot; <span id="read-time"></span> min read</p>
     <hr>
-
     {{ content }}
+    <hr>
 </article>
+<button id="to-top-btn" title="Back to top">back to top</button>
+<script src="../../js/scroll-to-top.js"></script>
+<script src="../../js/copy-code-btn.js"></script>
+<script src="../../js/article-read-time.js"></script>
