@@ -44,8 +44,7 @@ body {
 
 @media (max-width: 112ch) {
   body {
-    padding: 0 1.5rem;
-    width: 100%;
+    width: 90%;
   }
 }
 
@@ -111,7 +110,7 @@ pre {
 
 code {
   display: block;
-  overflow-x: scroll;
+  overflow-x: auto;
   font-family: "SF Mono";
 }
 
