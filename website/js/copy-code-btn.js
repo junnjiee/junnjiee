@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   document.querySelectorAll("pre > code").forEach((codeBlock) => {
     const button = document.createElement("button");
+    button.title = "Copy code block"
     button.className = "copy-btn";
     button.innerHTML = copySvg;
 

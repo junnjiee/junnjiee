@@ -30,6 +30,7 @@
     {{ content }}
 
     <script>
+        // bold active link
         const currentPath = window.location.pathname.split("/");
 
         document.querySelectorAll("header nav a").forEach((element) => {
@@ -39,6 +40,7 @@
             }
         });
 
+        // dynamic command prompt style navigation
         if (currentPath[1]) {
             const nav = document.getElementById("cmd-prompt-nav")
             nav.classList.remove("invisible")
