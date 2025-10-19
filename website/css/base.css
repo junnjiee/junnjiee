@@ -36,6 +36,20 @@ body {
   background-color: var(--base);
   color: var(--text);
   font-size: 16px;
+  line-height: 1.4;
+}
+
+@media (max-width: 112ch) {
+  body {
+    padding: 0 1.5rem;
+    width: 100%;
+  }
+}
+
+@media (max-width: 200px) {
+  body {
+    word-break: break-all;
+  }
 }
 
 header > h1 > a {
@@ -61,12 +75,13 @@ nav > ul {
   display: flex;
   list-style-type: none;
   padding-left: 0;
-  column-gap: 0.15em;
+  column-gap: 0.15rem;
 }
 
 a {
   color: var(--blue);
   text-decoration: underline;
+  word-break: break-all;
 }
 
 p,
@@ -78,6 +93,7 @@ ol {
 
 ul {
   padding-inline-start: 1.2rem;
+  flex-wrap: wrap;
 }
 
 li {
@@ -85,12 +101,14 @@ li {
 }
 
 pre {
-  border-radius: 0.5rem;
-  padding: 1.5rem 1rem;
   position: relative;
+  border-radius: 0.5rem;
+  padding: 2rem 1rem;
 }
 
 code {
+  display: block;
+  overflow-x: scroll;
   font-family: "SF Mono";
 }
 
