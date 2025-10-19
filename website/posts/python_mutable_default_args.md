@@ -31,19 +31,19 @@ arr1: ['a']
 arr2: ['a']
 ```
 
-Why did mutating `arr1` affect `arr2`? Shouldn't they be different list instances?
+Why did mutating arr1 affect arr2? Shouldn't they be different list instances?
 
 ## Why?
 
-Looking at the Python docs at [8.7. Function definitions](https://docs.python.org/3.10/reference/compound_stmts.html#function-definitions), it states: `the expression is evaluated once, when the function is defined, and that the same “pre-computed” value is used for each call`.
+Looking at the Python docs at [8.7. Function definitions](https://docs.python.org/3.10/reference/compound_stmts.html#function-definitions), it states: the expression is evaluated once, when the function is defined, and that the same “pre-computed” value is used for each call.
 
 This behaviour works with primitive types, but unexpected errors occur when using mutable objects, since the same object instance is used for every function call, instead of a new instance being created.
 
-Thus, the output is attributed to `arr1` and `arr2` sharing the same `list` instance.
+Thus, the output is attributed to arr1 and arr2 sharing the same list instance.
 
 ## The Fix
 
-To use mutable objects as default arguments in Python, we can use the primitive `None` as the default value, then explicitly test for it:
+To use mutable objects as default arguments in Python, we can use the primitive None as the default value, then explicitly test for it:
 
 ```python
 from typing import Optional, List
