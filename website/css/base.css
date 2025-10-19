@@ -23,8 +23,11 @@
   --base: #1e1e2e;
   --text: #cdd6f4;
   --blue: #89b4fa;
+  /* sub-headlines, labels */
   --subtext-0: #a6adc8;
+  /* subtle */
   --overlay-1: #7f849c;
+  /* copy button hover for code block */
   --surface-0: #313244;
 }
 
@@ -118,4 +121,10 @@ hr {
 
 .invisible {
   display: none;
+}
+
+#social-links > a {
+  cursor: pointer;
+  padding: 0.25rem;
+  text-decoration: none;
 }
