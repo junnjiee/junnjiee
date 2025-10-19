@@ -48,7 +48,7 @@ body {
   }
 }
 
-@media (max-width: 200px) {
+@media (max-width: 300px) {
   body {
     word-break: break-all;
   }
@@ -83,7 +83,6 @@ nav > ul {
 a {
   color: var(--blue);
   text-decoration: underline;
-  word-break: break-all;
 }
 
 p,
@@ -126,4 +125,8 @@ hr {
   cursor: pointer;
   padding: 0.25rem;
   text-decoration: none;
+}
+
+#social-links {
+  padding-bottom: 3rem;
 }
