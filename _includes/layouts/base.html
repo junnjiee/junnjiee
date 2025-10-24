@@ -24,8 +24,8 @@
             </ul>
         </nav>
     </header>
-    <nav id="cmd-prompt-nav" class="invisible">
-        <ul id="cmd-prompt-nav-links">
+    <nav id="breadcrumb" class="invisible">
+        <ul id="breadcrumb-links">
             <li><a href="/">~</a></li>
         </ul>
     </nav>
@@ -42,12 +42,13 @@
             }
         });
 
-        // dynamic command prompt style navigation
-        if (currentPath[1]) {
-            const nav = document.getElementById("cmd-prompt-nav")
+        // navigation breadcrumb
+        if (currentPath[1] && ['posts', 'books'].includes(currentPath[1])) {
+            const nav = document.getElementById("breadcrumb")
+            console.log(currentPath)
             nav.classList.remove("invisible")
 
-            const navList = document.getElementById("cmd-prompt-nav-links")
+            const navList = document.getElementById("breadcrumb-links")
             currentPath.forEach((link, idx) => {
                 if (link) {
                     const hrefLink = currentPath.slice(0, idx + 1).join("/")
