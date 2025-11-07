@@ -5,13 +5,12 @@ title: Jun Jie
 
 # Hello!
 
-I’m a software engineer from Singapore with a passion for building and learning anything that sparks my curiosity, especially in the world of Computer Science. I enjoy exploring technologies, tackling challenging problems, and building products that drive real impact.
+I'm a software engineer from Singapore, passionate about building to solve real problems.
 
 I'm **currently**:
 
-- looking for software engineering internships for Summer (May-Aug) 2026!
+- looking for software engineering internships for May 2026 onwards!
 - an incoming Computer Science freshman at the [National University of Singapore](https://www.nus.edu.sg/)
-- learning C++
 
 **Previously**, I was a/an:
 
