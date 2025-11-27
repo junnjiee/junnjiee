@@ -1,6 +1,6 @@
 ### Hello, I'm Jun Jie
 
-Software engineer. I enjoy learning anything I find cool and building to solve problems.
+software dev. I enjoy learning and building anything I find cool.
 
 <!--
 **junnjiee16/junnjiee16** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
