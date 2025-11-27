@@ -1,4 +1,4 @@
-### Hello, I'm Jun Jie
+### Jun Jie
 
 software dev. I enjoy learning and building anything I find cool.
 
