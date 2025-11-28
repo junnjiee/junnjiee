@@ -1,6 +1,6 @@
 ### Jun Jie
 
-software dev. I enjoy learning and building anything I find cool.
+a dev trying to learn and build cool software.
 
 <!--
 **junnjiee16/junnjiee16** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
