@@ -9,7 +9,6 @@ I'm a software engineer from Singapore, interested in building to solve problems
 
 I'm **currently**:
 
-- getting involved in contributing to open source
 - looking for software engineering internships for May 2026 onwards
 - an incoming Computer Science freshman at the [National University of Singapore](https://www.nus.edu.sg/)
 

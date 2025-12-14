@@ -7,7 +7,7 @@ layout: layouts/base.html
 <div>
     <h1>Posts</h1>
     <ul id="post-list">
-        {% for post in collections.post %}
+        {% for post in collections.postsByDate %}
         <li class="post-list-item">
             <div class="post-list-item-date">{{ post.date | readableDate }}</div>
             <div>

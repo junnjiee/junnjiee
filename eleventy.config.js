@@ -14,4 +14,11 @@ export default function (eleventyConfig) {
   });
 
   eleventyConfig.addPlugin(syntaxHighlight);
+
+  // Custom collection for posts sorted by date (newest first)
+  eleventyConfig.addCollection("postsByDate", function(collectionApi) {
+    return collectionApi.getFilteredByTag("post").sort((a, b) => {
+      return b.date - a.date; // Descending order (newest first)
+    });
+  });
 }
