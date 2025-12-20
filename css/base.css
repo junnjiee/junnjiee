@@ -43,7 +43,7 @@ body {
   margin: 0 auto;
   background-color: var(--base);
   color: var(--text);
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 @media (max-width: 112ch) {
@@ -87,7 +87,7 @@ a {
 }
 
 p, li {
-  line-height: 1.9rem;
+  line-height: 1.9;
 }
 
 p,
