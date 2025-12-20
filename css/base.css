@@ -64,14 +64,6 @@ header > h1 > a {
   font-size: var(--font-size-xl);
 }
 
-header > nav > ul {
-  display: flex;
-  list-style-type: none;
-  column-gap: 0.8rem;
-  padding-left: 0;
-  font-family: "SF Mono";
-}
-
 nav > ul > li > a {
   color: var(--subtext-0);
   font-size: var(--font-size-sm);
@@ -84,9 +76,18 @@ nav > ul {
   column-gap: 0.15rem;
 }
 
+header > nav > ul {
+  column-gap: 0.8rem;
+  font-family: "SF Mono";
+}
+
 a {
   color: var(--blue);
   text-decoration: underline;
+}
+
+p, li {
+  line-height: 1.9rem;
 }
 
 p,
@@ -114,6 +115,7 @@ pre {
 code {
   display: block;
   overflow-x: auto;
+  font-size: var(--font-size-base);
   font-family: "SF Mono";
 }
 
