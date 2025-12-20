@@ -20,6 +20,7 @@
   --font-size-lg: clamp(1.125rem, 1.063rem + 0.313vw, 1.25rem);
   --font-size-xl: clamp(2.5rem, 3vw, 4.5rem);
 
+  /* color based on catppuccin mocha */
   --base: #1e1e2e;
   --text: #cdd6f4;
   --blue: #89b4fa;
@@ -31,6 +32,10 @@
   --surface-0: #313244;
 }
 
+html {
+  font-size: 16px;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -38,7 +43,6 @@ body {
   margin: 0 auto;
   background-color: var(--base);
   color: var(--text);
-  font-size: 16px;
   line-height: 1.4;
 }
 
