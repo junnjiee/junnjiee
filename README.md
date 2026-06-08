@@ -1,5 +1,3 @@
-### Jun Jie
-
 building software
 
 <!--
