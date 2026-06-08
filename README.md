@@ -1,6 +1,4 @@
-### Jun Jie
-
-making things with a computer
+`People create programs to direct processes. In effect, we conjure the spirits of the computer with our spells.` - *Harold Abelson, SICP*
 
 <!--
 **junnjiee16/junnjiee16** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
