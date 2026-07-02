@@ -1,9 +1,5 @@
-currently
-- trying to better understand databases
-- learning rust/c++
-- building fun AI-centric experiences
+currently trying to better understand databases
 
-<!--
 ```
                 _,_           +                   __
                 ','                  /\          `. `.
@@ -21,7 +17,6 @@ currently
                                 ___..         _.--''        .'            (@))_))        o ~/~~\~ o
                           --''''             '            .'                              o  o  o
 ```
--->
 
 <!--
 **junnjiee16/junnjiee16** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
