@@ -1,4 +1,4 @@
-currently daily work include
+currently
 - trying to better understand databases
 - learning rust/c++
 - building fun AI-centric experiences
