@@ -1,4 +1,4 @@
-currently trying to better understand databases
+learning about databases
 
 ```
                 _,_           +                   __
