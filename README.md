@@ -1,5 +1,3 @@
-learning about databases
-
 ```
                 _,_           +                   __
                 ','                  /\          `. `.
